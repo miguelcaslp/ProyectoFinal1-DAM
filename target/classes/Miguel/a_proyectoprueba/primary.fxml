@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Miguel.a_proyectoprueba.PrimaryController">
+   <children>
+      <TextField fx:id="password" layoutX="133.0" layoutY="410.0" onMouseEntered="#logIn" prefHeight="25.0" prefWidth="319.0" />
+      <TextField fx:id="user" layoutX="133.0" layoutY="300.0" prefHeight="25.0" prefWidth="319.0" />
+      <Label layoutX="135.0" layoutY="236.0" prefHeight="17.0" prefWidth="194.0" text="Usuario:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="358.0" prefHeight="17.0" prefWidth="194.0" text="Contraseña:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="252.0" layoutY="84.0" text="IL RISTORANTE">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="button" fitHeight="65.0" fitWidth="91.0" layoutX="643.0" layoutY="328.0" onMouseClicked="#logIn">
+         <image>
+            <Image url="@../../images/FLECHA.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="buttonExit" fitHeight="57.0" fitWidth="64.0" layoutX="119.0" layoutY="495.0" onMouseClicked="#exit">
+         <image>
+            <Image url="@../../images/EXIT.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="button2Exit" layoutX="189.0" layoutY="505.0" onMouseClicked="#exit" text="EXIT">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

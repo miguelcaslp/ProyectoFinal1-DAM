@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Miguel.a_proyectoprueba.EliminarPedidoController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="138.0" layoutY="56.0" prefHeight="130.0" prefWidth="534.0" text="¿ESTAS SEGURO DE QUE QUIERES &#10;ELIMINAR EL PEDIDO?" textFill="#eb0505">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Button fx:id="confirmar" layoutX="124.0" layoutY="300.0" mnemonicParsing="false" onAction="#eliminarPedido" prefHeight="84.0" prefWidth="167.0" text="Confirmar" />
+      <Button fx:id="cancelar" layoutX="463.0" layoutY="300.0" mnemonicParsing="false" onAction="#switchToCamareroEleccion" prefHeight="84.0" prefWidth="167.0" text="Cancelar" />
+   </children>
+</Pane>

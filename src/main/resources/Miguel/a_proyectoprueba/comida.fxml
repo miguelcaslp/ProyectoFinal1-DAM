@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Miguel.a_proyectoprueba.ComidaController">
+   <children>
+      <ImageView fx:id="buttonOk" fitHeight="69.0" fitWidth="74.0" layoutX="620.0" layoutY="496.0" onMouseClicked="#switchToMesas">
+         <image>
+            <Image url="@../../images/ok.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="buttonAtras" fitHeight="88.0" fitWidth="90.0" layoutX="115.0" layoutY="487.0" onMouseClicked="#switchToMenu">
+         <image>
+            <Image url="@../../images/volver.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="buttonShowMenu" fitHeight="78.0" fitWidth="134.0" layoutX="333.0" layoutY="492.0" onMouseClicked="#switchToPedido">
+         <image>
+            <Image url="@../../images/lista.png" />
+         </image>
+      </ImageView>
+      <HBox fx:id="comidas" layoutX="85.0" layoutY="72.0" prefHeight="387.0" prefWidth="609.0" />
+   </children>
+</Pane>
